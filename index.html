@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varun Ajith</title>
+
+    <!-- SWIPER CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+    <!-- BOX ICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER DESIGN -->
+    <header class="header">
+        <a href="#" class="logo">Varun.</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- HOME DESIGN -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I'm</h3>
+            <h1>Varun Ajith</h1>
+            <p>Dedicated robotics and automation engineer passionate about revolutionizing industries through innovative technology solutions.</p>
+            <div class="social-media">
+                <a href="mailto:varunajithvarun@gmail.com"><i class='bx bx-envelope'></i></a>
+                <a href="https://www.linkedin.com/in/varun-ajith-857820212/"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/Varun-Ajith"><i class='bx bxl-github' ></i></a>
+                <a href="tel:+918593008087"><i class='bx bxs-phone-call' ></i></a>
+            </div>
+
+            <a href="Varun Ajith CV.pdf" class="btn">Download CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bxl-steam'></i>
+                    <h3>Robotics</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-cog' ></i>
+                    <h3>Automation</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Programming</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bx-palette' ></i>
+                    <h3>Designing</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+            <div class="overlay"></div>
+        </div>
+        <div class="home-img">
+            <img src="" alt="">
+        </div>
+    </section>
+
+    <!-- ABOUT DESIGN -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="about.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Hi, I am Varun Ajith!</h3>
+            <p>Innovative robotics and automation engineer, freshly graduated and proficient in ROS, Python, PLC programming, Web designing and CAD design. Eager to apply my skills to drive transformative change and optimize efficiency in diverse industries, while continually seeking opportunities for growth and development.</p>
+            <a href="#services" class="btn">Read More</a>
+        </div>
+    </section>
+    
+    <!-- SERVCE SECTION -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box" id="skillsBox">
+                <i class='bx bxl-steam'></i>
+                <h3>Robotics Engineer</h3>
+                <p>Innovative robotics solutions from concept to execution, pushing boundaries and bringing visions to life.</p>
+                <a href="" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-cog'></i>
+                <h3>Automation Engineer</h3>
+                <p>Optimize processes with PLC, SCADA, and automation expertise for seamless productivity and enhanced efficiency.</p>
+                <a href="" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-color' ></i>
+                <h3>Web Designing</h3>
+                <p>Crafting visually stunning, user-friendly websites for engaging digital experiences that leave a lasting impression.</p>
+                <a href="" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- MODAL -->
+    <div id="skillsModal"  class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="skills-content">
+                <div class="progress">
+                    <h3>Python Programming <span>80%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+                <div class="progress">
+                    <h3>ROS Programming <span>70%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+                <div class="progress">
+                    <h3>CAD Designing<span>75%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+                <div class="progress">
+                    <h3>Sensor Intergration<span>65%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+                <div class="progress">
+                    <h3>System Intergration<span>70%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+                <div class="progress">
+                    <h3>PCB Designing<span>70%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="skillsModal2"  class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="skills-content">
+                <div class="progress">
+                    <h3>PLC Programming <span>85%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+                <div class="progress">
+                    <h3>SCADA Proficiency<span>60%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+                <div class="progress">
+                    <h3>HMI Designing<span>55%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+                <div class="progress">
+                    <h3>PAC Programming<span>60%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+                <div class="progress">
+                    <h3>Interfacing<span>67%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+                <div class="progress">
+                    <h3>Panel Wiring<span>80%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="skillsModal3"  class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="skills-content">
+                <div class="progress">
+                    <h3>Python Programming <span>80%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+                <div class="progress">
+                    <h3>HTML Programming <span>70%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+                <div class="progress">
+                    <h3>CSS proficiency<span>60%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+                <div class="progress">
+                    <h3>JavaScript Fundamentals<span>40%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+                <div class="progress">
+                    <h3>Designing<span>88%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PORTFOLIO DESIGN -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="portfolio1.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Hexapod</h4>
+                    <p>Autonomous six-legged robot prototype designed for disaster-stricken environments to facilitate rescue operations.</p>
+                    <a href="https://drive.google.com/drive/folders/1cfDPr4MQdAX6mYTor35J-u_nwrJDgHtt?usp=drive_link"><i class='bx bx-link-alt'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="portfolio2.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Gesture Bot</h4>
+                    <p>
+                        Toy car with gesture controls for intuitive speed and direction manipulation, designed for entertainment.</p>
+                    <a href="https://drive.google.com/drive/folders/1cyXbatPAHSbZOzYls5siLQvfzF-Gk9wG?usp=drive_link"><i class='bx bx-link-alt'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="portfolio3.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Auto Mains Fail</h4>
+                    <p> Automatic system that swiftly switches power sources, ensuring uninterrupted supply during mains failures.</p>
+                    <a href="https://drive.google.com/drive/folders/1DbEF1zC0_Nkusbv-V0MWNascFziqYYiK?usp=drive_link"><i class='bx bx-link-alt'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="portfolio4.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Metal Sorter</h4>
+                    <p> Automated metal segregation system with PLCs, belts, sensors detects and ejects metals from conveyor.</p>
+                    <a href="https://drive.google.com/drive/folders/1fEyGVvGReXDR0SyXJvn0sYOBint57h3L?usp=drive_link"><i class='bx bx-link-alt'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="portfolio5.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>2-D Plotter</h4>
+                    <p>Arduino-based printer system with two stepper motors for printing assignments, homework, or drawings.</p>
+                    <a href="https://drive.google.com/drive/folders/1jO2KlHiGWcVPI7ysTcRka5thXfp4k6w3?usp=drive_link"><i class='bx bx-link-alt'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="portfolio6.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>CAD Models</h4>
+                    <p>I have developed several CAD designs which are currently in the process of being prototyped.</p>
+                    <a href="https://drive.google.com/drive/folders/15Zzk4UdqxQvk9XNdh51DEvuRfkP9uNFC?usp=sharing"><i class='bx bx-link-alt'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- EXTRAS DESIGN -->
+    <div class="extra-container">
+        <h2 class="heading">My <span>Extras</span></h2>
+        <div class="extra-wrapper">
+            <div class="extra-box mySwiper">
+                <div class="extra-content swiper-wrapper">
+                    <div class="extra-slide swiper-slide">
+                        <h3>Hands-on workshop on IoT and Drones.</h3>
+                        <p>Conducted on Saintgits College by Bennet University ,gained hands-on experience in assembling IoT devices and drones. Developed a foundational understanding of flight controllers and stabilization techniques, enriching my knowledge in the application of IoT and drones in real-world scenarios.</p>
+                    </div>
+                    <div class="extra-slide swiper-slide">
+                        <h3>Workshop on 3D game development.</h3>
+                        <p>Conducted by Pacelab at LBS college, acquired fundamental knowledge of Unity and game development concepts. Explored the basics of creating games using Unity.</p>
+                    </div>
+                    <div class="extra-slide swiper-slide">
+                        <h3>Workshop on Robotics Arm.</h3>
+                        <p>Assembled a laser-cut prototype of a manipulator and learned to drive it using servos through Arduino. Acquired practical skills in coding manipulator functions, demonstrating proficiency in the application of Arduino for robotics, conducted by ISTE ST, CET</p>
+                    </div>
+                    <div class="extra-slide swiper-slide">
+                        <h3>Workshop on ROS in Robotics.</h3>
+                        <p>Provided hands-on experience in using Autocad and 3D printing technologies. Explored the implementation of ROS in robotics projects, subsequently applying this knowledge in the development of my final year project.</p>
+                    </div>
+                    <div class="extra-slide swiper-slide">
+                        <h3>Member of Robotics Club(Saintgits).</h3>
+                        <p>Gave notable contributions to the campus robotics club.</p>
+                    </div>
+                    <div class="extra-slide swiper-slide">
+                        <h3>Partcipated on e-yantra competition</h3>
+                        <p>Joined and participated on e-yantra competition held by IIT Bombay. Me and my team got to study working principle of omnidirectional bots(Hola Bots)</p>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- SECTION DESIGN -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" id="name">
+                <input type="email" placeholder="Email address" id="email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number" id="phone">
+                <input type="text" placeholder="Email Subject" id="subject">
+            </div>
+            <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+    
+    <!-- FOOTER DESIGN -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Varun Ajith | All Right Reserved</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-chevron-up-circle'></i></a>
+
+        </div>
+    </footer>
+
+
+    <!-- SCROLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+    <!-- SWIPER JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- SMTP JS -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
