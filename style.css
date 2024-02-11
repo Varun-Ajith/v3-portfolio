@@ -295,8 +295,8 @@ span {
 
 .about-img img {
     border-radius: 50%;
-    width: 50rem;
-    height: 50rem;
+    width: 90%;
+    border: .2rem solid var(--main-color);
 }
 
 .heading {
@@ -944,6 +944,7 @@ span {
     .about-img img {
         width: 40vw;
         margin-top: -2rem;
+        border-radius: 50%;
     }
 
     .services h2,
@@ -1006,6 +1007,12 @@ span {
 
     .about-img img {
         width: 60vw;
+        border-radius: 50%;
+    }
+
+    .about-img {
+        display: flex;
+        justify-content: center;
     }
 
     .contact form .input-box {
