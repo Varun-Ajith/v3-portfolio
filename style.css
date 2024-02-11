@@ -650,48 +650,6 @@ span {
     background: var(--main-color);
 }
 
-/* .contact {
-    padding-bottom: 7rem;
-}
-
-.contact .contact-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 2rem;
-}
-
-.contact-container .contact-box {
-    flex: 1 1 2rem;
-    background: var(--bg-color);
-    padding: 2rem 1rem 3rem;
-    border-radius: 2rem;
-    box-shadow: 0 .1rem .5rem var(--shadow-color);
-    text-align: center;
-    border-top: .6rem solid var(--main-color);
-    border-bottom: .6rem solid var(--main-color);
-    transition: .5s ease;
-}
-
-.contact-container .contact-box:hover {
-    box-shadow: 0 .1rem 2rem var(--shadow-color);
-    transform: scale(1.02);
-}
-
-.contact-box i {
-    font-size: 4rem;
-    color: var(--text-color);
-}
-
-.contact-box:hover i {
-    color: var(--main-color);
-}
-
-.contact-box p {
-    font-size: 1.6rem;
-    margin: 1rem 0 3rem;
-} */
 
 .contact h2 {
     margin-bottom: 3rem;
@@ -939,7 +897,7 @@ span {
     }
     
     .home .profession-box .profession:nth-child(1) {
-        transform: rotate(-90deg) translate(-120px, -210px);
+        transform: rotate(-90deg) translate(-65px, -275px);
     }
 
     .home .profession-box .profession:nth-child(1) i {
@@ -955,7 +913,7 @@ span {
     }
 
     .home .profession-box .profession:nth-child(4) {
-        transform: rotate(180deg) translate(-220px, -210px);
+        transform: rotate(180deg) translate(-155px, -335px);
     }
 
     .home .profession-box .circle {
@@ -1031,7 +989,7 @@ span {
     }
 
     .home .profession-box .profession:nth-child(1) {
-        transform: rotate(-90deg) translate(-110px , -220px);
+        transform: rotate(-90deg) translate(-65px , -275px);
     }
 
     .home .profession-box .profession:nth-child(2) {
@@ -1043,14 +1001,32 @@ span {
     }
 
     .home .profession-box .profession:nth-child(4) {
-        transform: rotate(180deg) translate(-210px , -335px);
+        transform: rotate(180deg) translate(-155px , -335px);
     }
 
     .about-img img {
         width: 60vw;
     }
 
+    .contact form .input-box {
+        display: flex;
+        flex-direction: column;
+    }
+
     .contact form .input-box input {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .contact form .input-box input:last-child {
+        margin-bottom: 0; /* Remove bottom margin from the last input */
+    }
+
+    .contact form textarea {
+        width: 100%;
+    }
+
+    .contact form .btn {
         width: 100%;
     }
         
