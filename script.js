@@ -122,6 +122,29 @@ document.querySelector('.services-box:nth-of-type(3) .btn').addEventListener('cl
     skillsModal3.style.display = "block";
 });
 
+// ABOUT MODAL
+
+document.addEventListener("DOMContentLoaded", function () {
+    const aboutReadMoreBtn = document.querySelector('.about .btn');
+    const educationPopup = document.getElementById('educationPopup');
+    const closeBtn = educationPopup.querySelector('.close');
+
+    aboutReadMoreBtn.addEventListener('click', function () {
+        educationPopup.style.display = 'block';
+    });
+
+    closeBtn.addEventListener('click', function () {
+        educationPopup.style.display = 'none';
+    });
+
+    window.addEventListener('click', function (event) {
+        if (event.target === educationPopup) {
+            educationPopup.style.display = 'none';
+        }
+    });
+});
+
+
 // SMTP
 
 const form = document.querySelector("form");
@@ -159,3 +182,5 @@ form.addEventListener("submit", (e) => {
 
     sendEmail();
 });
+
+

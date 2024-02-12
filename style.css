@@ -319,6 +319,167 @@ span {
     padding-bottom: 2rem;
 }
 
+/* Integration of education section styles into the education modal */
+
+.modal-content {
+    background: var(--bg-color);
+    margin: 15% auto;
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    width: 80%;
+    box-shadow: 0 .1rem .5rem var(--shadow-color);
+    text-align: center;
+    border-top: .6rem solid var(--main-color);
+    border-bottom: .6rem solid var(--main-color);
+}
+
+#educationPopup .education-content {
+    padding: 0 2rem;
+}
+
+#educationPopup .education-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem; /* Adjusted gap for better spacing */
+}
+
+#educationPopup .education-column {
+    flex: 1 1 100%; /* Adjusted flex properties */
+}
+
+#educationPopup .title {
+    position: relative;
+    display: inline-block;
+    font-size: 2.5rem;
+    margin: 0 0 1.5rem 2rem;
+}
+
+#educationPopup .education-box {
+    position: relative;
+    border-left: .2rem solid var(--main-color);
+}
+
+#educationPopup .edu-content {
+    position: relative;
+    padding-left: 2rem;
+    margin-left: 2rem;
+    border: 2px solid var(--main-color); 
+    border-radius: 1rem; 
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+
+#educationPopup .edu-content::before {
+    content: none;
+    position: absolute;
+    top: 0;
+    left: -1rem;
+    width: 2rem;
+    height: 2rem;
+    background: var(--main-color);
+    border-radius: 50%;
+    margin-left: 2rem;
+}
+
+#educationPopup .content {
+    position: relative;
+    padding: 1.5rem;
+    border: .2rem solid var(--white-color);
+    border-radius: .6rem;
+    margin-bottom: 2rem;
+}
+
+#educationPopup .content::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: var(--white-color);
+    z-index: -1;
+    transition: .5s;
+}
+
+#educationPopup .content .year {
+    font-size: 1.5rem;
+    color: var(--main-color);
+    padding-bottom: .5rem;
+}
+
+#educationPopup .content .year i {
+    padding-right: .5rem;
+}
+
+#educationPopup .content h3 {
+    font-size: 2rem;
+}
+
+#educationPopup .content p {
+    font-size: 1.6rem;
+    padding-top: .5rem;
+}
+
+#educationPopup .edu-content,
+#educationPopup .education-box {
+    transition: 0.5s ease;
+}
+
+#educationPopup .edu-content:hover,
+#educationPopup .education-box:hover {
+    box-shadow: 0 .1rem 2rem var(--shadow-color);
+    transform: scale(1.02);
+}
+
+
+.additional-content {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.additional-box {
+    flex: 1 1 30%;
+    background-color: var(--bg-color);
+    padding: 2rem;
+    border-radius: 1rem;
+    border-top: .6rem solid var(--main-color);
+    border-bottom: .6rem solid var(--main-color);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    transition: .5s ease;
+}
+
+.additional-box:hover {
+    box-shadow: 0 .1rem 2rem var(--shadow-color);
+    transform: scale(1.02);
+}
+
+.additional-box h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.additional-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.additional-box ul li {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.additional-box p {
+    margin-left: 2rem;
+    font-size: 1.3rem;
+}
+
+.additional-box p i {
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
 .services {
     min-height: auto;
     padding-bottom: 7rem;
