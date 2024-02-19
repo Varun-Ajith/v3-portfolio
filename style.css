@@ -592,7 +592,7 @@ span {
 }
 
 #skillsModal .progress:nth-child(2) .bar span {
-    width: 70%; /* Adjust width as needed */
+    width: 73%; /* Adjust width as needed */
 }
 
 #skillsModal .progress:nth-child(3) .bar span {
@@ -600,15 +600,23 @@ span {
 }
 
 #skillsModal .progress:nth-child(4) .bar span {
-    width: 65%; /* Adjust width as needed */
+    width: 70%; /* Adjust width as needed */
 }
 
 #skillsModal .progress:nth-child(5) .bar span {
-    width: 70%; /* Adjust width as needed */
+    width: 72%; /* Adjust width as needed */
 }
 
 #skillsModal .progress:nth-child(6) .bar span {
-    width: 70%; /* Adjust width as needed */
+    width: 74%; /* Adjust width as needed */
+}
+
+#skillsModal .progress:nth-child(7) .bar span {
+    width: 69%; /* Adjust width as needed */
+}
+
+#skillsModal .progress:nth-child(8) .bar span {
+    width: 66%; /* Adjust width as needed */
 }
 
 #skillsModal2 .progress:nth-child(1) .bar span {
