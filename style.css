@@ -636,10 +636,14 @@ span {
 }
 
 #skillsModal2 .progress:nth-child(5) .bar span {
-    width: 67%; /* Adjust width as needed */
+    width: 66%; /* Adjust width as needed */
 }
 
 #skillsModal2 .progress:nth-child(6) .bar span {
+    width: 67%; /* Adjust width as needed */
+}
+
+#skillsModal2 .progress:nth-child(7) .bar span {
     width: 80%; /* Adjust width as needed */
 }
 
